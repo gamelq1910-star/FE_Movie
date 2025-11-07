@@ -30,7 +30,7 @@ const Login = () => {
     } catch (_) {
       // ignore
     }
-  }, []);
+  }, [navigate]);
 
   const handleChange = (e) => {
     setFormData({

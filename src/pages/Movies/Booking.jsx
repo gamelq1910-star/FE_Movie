@@ -11,7 +11,6 @@ const Booking = () => {
   const params = useMemo(() => new URLSearchParams(search), [search]);
 
   // Params từ MovieDetail
-  // const movieId = params.get("movieId") || "";
   const showtimeId = params.get("showtimeId") || "";
   const date = params.get("date") || "";
   const startTime = params.get("startTime") || "";
